@@ -13,7 +13,7 @@ import android.view.View
 //Viewクラスを継承
 class MyView(context: Context?, attrs: AttributeSet?) : View(context, attrs) {
 
-    //線を引く・色とか太さ・座標
+    //変数宣言【線を引く・色とか太さ・座標】
     private val path = Path()
     private val paint = Paint()
     private var drawX = 0F
